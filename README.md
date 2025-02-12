@@ -1,1 +1,1 @@
-# mimetype-go
+# mime-go
