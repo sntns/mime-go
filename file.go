@@ -91,6 +91,6 @@ func (d *fileTypeDetectorImpl) DetectFileType(path string) string {
 		defer d.RUnlock()
 		return d.extensions[ext]
 	} else {
-		return ""
+		return "application/octet-stream"
 	}
 }
